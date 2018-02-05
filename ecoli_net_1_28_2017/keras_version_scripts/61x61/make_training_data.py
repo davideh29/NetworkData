@@ -36,8 +36,8 @@ window_size_x = 30
 window_size_y = 30
 
 # Load data
-direc_name = '/root/NetworkData/ecoli_net/training_data/'
-file_name_save = os.path.join('/root/NetworkData/ecoli_net/training_data_npz/61x61/', 'ecoli_david_61x61.npz')
+direc_name = '/root/ecoli_net/training_data/'
+file_name_save = os.path.join('/root/ecoli_net/training_data_npz/61x61/', 'ecoli_david_61x61.npz')
 training_direcs = ["set1/", "set2/", "set3/", "set4/", "set5/", "set6/", "set7/", "set8/",
 	"set9/", "set10/", "set11/", "set12/", "set13/", "set14/", "set15/", "set16/", "set17/", "set18/", 
 	"set19/", "set20/", "set21/", "set22/", "set23/", "set24/", "set25/", "set26/", "set27/", "set28/", "set29/",

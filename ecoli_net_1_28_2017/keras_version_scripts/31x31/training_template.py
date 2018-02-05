@@ -20,8 +20,8 @@ n_epoch = 25
 dataset = "ecoli_david_31x31"
 expt = "bn_feature_net_31x31"
 
-direc_save = "/root/NetworkData/ecoli_net/trained_networks/31x31/"
-direc_data = "/root/NetworkData/ecoli_net/training_data_npz/31x31/"
+direc_save = "/root/ecoli_net/trained_networks/31x31/"
+direc_data = "/root/ecoli_net/training_data_npz/31x31/"
 
 optimizer = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 lr_sched = rate_scheduler(lr = 0.01, decay = 0.95)
